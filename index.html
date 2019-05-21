@@ -77,15 +77,55 @@
     <footer>
       <p class="tag">#visitSEDONA</p>
       <ul>
-        <li><a href="#" class="social-button">Твиттер</a></li>
-        <li><a href="#" class="social-button">Фейсбук</a></li>
-        <li><a href="#" class="social-button">ВК</a></li>
+        <li>
+          <a href="#" class="social-button">
+            <span class="visually-hidden">Твиттер</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="social-button">
+            <span class="visually-hidden">Фейсбук</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="social-button">
+            <span class="visually-hidden">Youtube</span>
+          </a>
+        </li>
       </ul>
       <a href="#">
         <span class="developer-text">WEBSITE BY</span>
         <img src="img/logo-htmlacademy.svg" alt="Логотип разработчика">
       </a>
     </footer>
+    <section class="modal">
+      <h3 class="visually-hidden">Панель свойств выбора гостиницы</h3>
+      <form class="search-form" action="#" method="post">
+        <div class="modal-arrival">
+          <label for="modal_arrival_date">дата заезда</label>
+          <input class="form_input" type="text" name="arrival_date" id="modal_arrival_date">
+        </div>
+        <div class="modal-departure">
+          <label for="modal_date_of_departure">дата заезда</label>
+          <input class="form_input" type="text" name="date_of_departure" id="modal_date_of_departure">
+        </div>
+        <div class="num_adults">
+          <label for="adults">взрослые</label>
+          <button class="reduce_btn btn">-</button>
+          <input type="text" name="num_adults" id="adults">
+          <button class="increase_btn btn">+</button>
+        </div>
+        <div class="num_childrens">
+          <label for="childrens">взрослые</label>
+          <button class="reduce_btn btn">-</button>
+          <input type="text" name="num_adults" id="childrens">
+          <button class="increase_btn btn">+</button>
+        </div>
+      </form>
+      <div class="modal-search-button">
+        <button class="modal-button" type="submit">Отправить</button>
+      </div>
+    </section>
   </div>
 </body>
 
