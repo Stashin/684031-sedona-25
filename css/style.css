@@ -8,23 +8,18 @@ body {
   color: #000000;
   text-transform: uppercase;
   background-color: #ffffff;
+  background-image: url("../img/bg_top_index.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.inner-page {
+  background-image: url("../img/bg_top_catalog.jpg");
 }
 
 a {
   text-decoration: none;
 }
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 .header-menu {
   font-weight: 700;
   line-height: 26px;
@@ -47,4 +42,155 @@ a {
 
 .header-menu__list a:active {
   color: rgba(0, 0, 0, 0.3);
+}
+
+.main {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.explanation {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.reasons {
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.reason-1,
+.reason-2 {
+  background-color: #81b3d2;
+}
+
+.advantages-title,
+.properties-title {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 21px;
+}
+
+.properties-list {
+  background-color: #ffffff;
+  color: #000000
+}
+
+.properties-text {
+  color: #333333;
+}
+
+.reason-3-5 {
+  background-color: #eeeeee;
+  color: #000000
+}
+
+.advantages-number,
+.advantages-text {
+  color: #333333;
+}
+
+.color__white {
+  color: #ffffff;
+}
+
+.color__gray {
+  color: #333333;
+}
+
+.color__black {
+  color: #000000;
+}
+
+.interested {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.interested-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+.interested-text {
+  line-height: 24px;
+}
+
+.hotel__search {
+  background-color: #766357;
+  color: #ffffff;
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.main-footer {
+  background-color: rgba(254, 254, 254, 0.9);
+}
+
+.tag {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.main-footer ul {
+  list-style: none;
+  text-align: center;
+}
+
+.modal {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.form_label {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.form_input {
+  font-size: 14px;
+  line-height: 26px;
+  color: #000000;
+  text-transform: uppercase;
+  background-color: #f2f2f2;
+}
+
+
+
+
+
+
+
+
+
+
+.catalog-list {
+  list-style: none;
+}
+
+.hotel-name {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.catalog-item__btns a {
+  color: #ffffff;
+}
+
+.detailed__btn {
+  background-color: #81b3d2;
+}
+
+.reserve__btn {
+  background-color: #766357;
+}
+
+.rating {
+  color: #666666;
+  background-color: #f2f2f2;
 }
