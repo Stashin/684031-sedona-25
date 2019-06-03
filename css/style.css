@@ -123,7 +123,6 @@ a {
   width: 1201px;
   height: 59px;
   top: 507px;
-  left: 84px;
   background-image: url(../img/intro-mask.svg);
 }
 
@@ -159,10 +158,21 @@ a {
   height: 256px;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .reason-1__pic {
   background-image: url(../img/real_town.jpg);
+  height: 256px;
+  width: 800px;
+}
+
+.reason-2__sec {
+  display: flex;
+}
+
+.reason-2__pic {
+  background-image: url(../img/canyon.jpg);
   height: 256px;
   width: 800px;
 }
@@ -177,14 +187,15 @@ a {
 
 .advantages-title {
   text-align: center;
-  padding: 0 139px;
   padding-top: 47px;
+  width: 151px;
 }
 
 .properties-list {
   background-color: #ffffff;
   color: #000000;
   display: flex;
+  min-height: 330px;
 }
 
 .properties-text {
@@ -209,7 +220,24 @@ a {
 
 .reason-3-5 {
   background-color: #eeeeee;
-  color: #000000
+  color: #000000;
+  display: flex;
+  min-height: 256px;
+}
+
+.reason-3-5__formatting {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+}
+
+.reason-3-5__formatting p {
+  width: 261px;
+}
+
+.reason-5 p{
+  width: 250px;
 }
 
 .advantages-number,
@@ -225,7 +253,8 @@ a {
 .advantages-text {
   margin: 0;
   text-align: center;
-  padding: 21px 60px;
+  padding-top: 21px;
+  width: 305px;
 }
 
 .color__white {
@@ -243,16 +272,25 @@ a {
 .interested {
   background-color: #ffffff;
   color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .interested-title {
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
+  margin: 0;
+  padding-top: 50px;
 }
 
 .interested-text {
   line-height: 24px;
+  margin: 0;
+  padding-top: 24px;
+  width: 442px;
+  text-align: center;
 }
 
 .hotel__search {
@@ -260,21 +298,40 @@ a {
   color: #ffffff;
   font-size: 21px;
   line-height: 26px;
+  font-weight: 700;
+  margin-top: 47px;
+  padding: 30px 139px;
+}
+
+.index-map {
+  background-image: url(../img/map.jpg);
+  height: 473px;
 }
 
 .main-footer {
   background-color: rgba(254, 254, 254, 0.9);
+  display: flex;
+  justify-content: space-between;
 }
 
 .tag {
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
+  margin: 0;
 }
 
 .main-footer ul {
   list-style: none;
   text-align: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.main-footer a {
+  display: flex;
+  align-items: center;
 }
 
 .modal {
