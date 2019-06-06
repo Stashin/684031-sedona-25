@@ -27,46 +27,52 @@
       </a>
     </header>
     <main>
-      <fieldset class="filter-infrastructure">
-        <legend>Инфраструктура:</legend>
-        <ul class="filter-list">
-          <li class="filter-option">
-            <input class="filter-input filter-input__checkbox visually-hidden" type="checkbox" name="bosch"
-              id="filter-pool" checked>
-            <label for="filter-pool">бассейн</label>
-          </li>
-          <li class="filter-option">
-            <input class="filter-input filter-input__checkbox visually-hidden" type="checkbox" name="bosch"
-              id="filter-parking">
-            <label for="filter-parking">парковка</label>
-          </li>
-          <li class="filter-option">
-            <input class="filter-input filter-input__checkbox visually-hidden" type="checkbox" name="bosch"
-              id="filter-wi-fi">
-            <label for="filter-wi-fi">wi-fi</label>
-          </li>
-        </ul>
-      </fieldset>
-      <fieldset class="filter-housing">
-        <legend>Тип жилья:</legend>
-        <ul class="filter-list">
-          <li class="filter-option">
-            <input class="filter-input filter-input__checkbox visually-hidden" type="checkbox" name="bosch"
-              id="filter-hotel" checked>
-            <label for="filter-hotel">hotel</label>
-          </li>
-          <li class="filter-option">
-            <input class="filter-input filter-input__checkbox visually-hidden" type="checkbox" name="bosch"
-              id="filter-motel">
-            <label for="filter-motel">парковка</label>
-          </li>
-          <li class="filter-option">
-            <input class="filter-input filter-input__checkbox visually-hidden" type="checkbox" name="bosch"
-              id="filter-apartment">
-            <label for="filter-apartment">апартаменты</label>
-          </li>
-        </ul>
-      </fieldset>
+      <div class="filters">
+        <h2 class="visually-hidden">Фильтр товаров</h2>
+        <form class="filter" method="get" action="https://echo.htmlacademy.ru">
+          <fieldset class="filter-infrastructure">
+            <legend>Инфраструктура:</legend>
+            <ul class="filter-list">
+              <li class="filter-option">
+                <input class="filter-input filter-input__checkbox visually-hidden" type="checkbox" name="pool"
+                  id="filter-pool" checked>
+                <label for="filter-pool">бассейн</label>
+              </li>
+              <li class="filter-option">
+                <input class="filter-input filter-input__checkbox visually-hidden" type="checkbox" name="parking"
+                  id="filter-parking">
+                <label for="filter-parking">парковка</label>
+              </li>
+              <li class="filter-option">
+                <input class="filter-input filter-input__checkbox visually-hidden" type="checkbox" name="wi-fi"
+                  id="filter-wi-fi">
+                <label for="filter-wi-fi">wi-fi</label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset class="filter-housing">
+            <legend>Тип жилья:</legend>
+            <ul class="filter-list">
+              <li class="filter-option">
+                <input class="filter-input filter-input__checkbox visually-hidden" type="checkbox" name="hotel"
+                  id="filter-hotel" checked>
+                <label for="filter-hotel">hotel</label>
+              </li>
+              <li class="filter-option">
+                <input class="filter-input filter-input__checkbox visually-hidden" type="checkbox" name="motel"
+                  id="filter-motel">
+                <label for="filter-motel">парковка</label>
+              </li>
+              <li class="filter-option">
+                <input class="filter-input filter-input__checkbox visually-hidden" type="checkbox" name="apartment"
+                  id="filter-apartment">
+                <label for="filter-apartment">апартаменты</label>
+              </li>
+            </ul>
+          </fieldset>
+        </form>
+      </div>
+
       <ul class="catalog-list">
         <li class="catalog-item">
           <p class="catalog-item__img">
