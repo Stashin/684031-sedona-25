@@ -127,30 +127,31 @@
       <h3 class="visually-hidden">Панель свойств выбора гостиницы</h3>
       <form class="search-form" action="#" method="post">
         <div class="modal-arrival">
-          <label class="form_label">дата заезда
+          <label class="form_label form-option">дата заезда:
             <input class="form_input" type="text" name="arrival_date" id="modal_arrival_date">
           </label>
         </div>
         <div class="modal-departure">
-          <label class="form_label">дата выезда
+          <label class="form_label form-option">дата выезда:
             <input class="form_input" type="text" name="date_of_departure" id="modal_date_of_departure">
           </label>
         </div>
-        <div class="num_adults">
-          <label class="form_label" for="adults">взрослые</label>
-          <button class="reduce_btn btn">-</button>
-          <input class="form_input" type="text" name="num_adults" id="adults">
-          <button class="increase_btn btn">+</button>
+        <div class="age-people">
+          <div class="num_adults">
+            <label class="form_label form-option" for="adults">взрослые:</label>
+            <button class="reduce_btn btn num_btn">-</button>
+            <input class="form_input age_input" type="text" name="num_adults" id="adults">
+            <button class="increase_btn btn num_btn">+</button>
+          </div>
+          <div class="num_childrens">
+            <label class="form_label form-option" for="childrens">дети:</label>
+            <button class="reduce_btn btn num_btn">-</button>
+            <input class="form_input age_input" type="text" name="num_adults" id="childrens">
+            <button class="increase_btn btn num_btn">+</button>
+          </div>
         </div>
-        <div class="num_childrens">
-          <label class="form_label" for="childrens">взрослые</label>
-          <button class="reduce_btn btn">-</button>
-          <input class="form_input" type="text" name="num_adults" id="childrens">
-          <button class="increase_btn btn">+</button>
-        </div>
-        <button class="modal-button" type="submit">Отправить</button>
+        <button class="modal-button" type="submit">найти</button>
       </form>
-
     </section>
   </div>
 </body>
