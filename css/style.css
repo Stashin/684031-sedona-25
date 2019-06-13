@@ -67,6 +67,10 @@ a {
   text-align: right;
 }
 
+.header-menu__map {
+  letter-spacing: 0.5px;
+}
+
 .header-menu__list a {
   color: #000000;
 }
