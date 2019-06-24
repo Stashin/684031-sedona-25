@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'PT Sans', Arial, sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
@@ -91,7 +91,7 @@ a {
 .logo-link {
   position: absolute;
   display: block;
-  content: '';
+  content: "";
   top: 0;
   left: 50%;
   transform: translateX(-50%);
@@ -554,11 +554,6 @@ a {
   color: rgba(255, 255, 255, 0.3);
 }
 
-
-
-
-
-
 .filters {
   background-image: url(../img/bg_top_catalog.jpg);
   min-height: 217px;
@@ -602,7 +597,7 @@ a {
   user-select: none;
 }
 
-.filter-input__checkbox+label::before {
+.filter-input__checkbox + label::before {
   content: "";
   position: absolute;
   width: 23px;
@@ -612,7 +607,7 @@ a {
   top: 0;
 }
 
-.filter-input__checkbox:checked+label::before {
+.filter-input__checkbox:checked + label::before {
   width: 27px;
   background-image: url(../img/checkbox-on.svg);
 }
