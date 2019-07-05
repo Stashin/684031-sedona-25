@@ -390,8 +390,8 @@ a {
   color: #000;
 }
 
-.web_by:hover svg path,
-.web_by:focus svg path {
+.web_by:hover path,
+.web_by:focus path {
   fill: #81b3d2;
 }
 
@@ -471,22 +471,46 @@ input[type=text]::-ms-clear {
   border: none;
   padding: 6px;
   padding-left: 13px;
-  background-image: url(../img/calendar.svg);
+/*   background-image: url(../img/calendar.svg);
   background-position: 316px center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   height: 38px;
+}
+
+/* .cal-form::after {
+  content: "";
+  position: absolute;
+  background-image: url(../img/calendar.svg);
+  background-repeat: no-repeat;
+  width: 21px;
+  height: 22px;
+  right: 64px;
+} */
+
+.cal-btn {
+  content: "";
+  position: absolute;
+  background-image: url(../img/calendar.svg);
+  background-repeat: no-repeat;
+  width: 21px;
+  height: 22px;
+  right: 64px;
+}
+
+.cal-form::after:focus {
+  background-image: url(../img/calendar_active.svg)
 }
 
 .form-option input:hover {
   background-color: #ebebeb;
-  background-image: url(../img/calendar_hover.svg);
+  /* background-image: url(../img/calendar_hover.svg); */
 }
 
 .form-option input:focus {
   background-color: #fff;
   outline: 2px solid #e5e5e5;
   margin: 0;
-  background-image: url(../img/calendar_active.svg);
+  /* background-image: url(../img/calendar_active.svg); */
 }
 
 .modal-arrival .form-option {
