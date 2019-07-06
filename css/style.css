@@ -395,7 +395,7 @@ a {
   fill: #81b3d2;
 }
 
-.web_by:active svg path {
+.web_by:active path {
   fill: #bdbbbc;
 }
 
@@ -862,6 +862,15 @@ input[type=text]::-ms-clear {
 
 .direction-item {
   margin-left: 13px;
+}
+
+.direction-item:hover path,
+.direction-item:focus path {
+  fill: #000;
+}
+
+.direction-item:active path {
+  fill: #81b3d2;
 }
 
 .catalog-list {
