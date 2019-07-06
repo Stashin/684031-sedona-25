@@ -471,35 +471,15 @@ input[type=text]::-ms-clear {
   border: none;
   padding: 6px;
   padding-left: 13px;
-/*   background-image: url(../img/calendar.svg);
+  /*   background-image: url(../img/calendar.svg);
   background-position: 316px center;
   background-repeat: no-repeat; */
   height: 38px;
 }
 
-/* .cal-form::after {
-  content: "";
-  position: absolute;
-  background-image: url(../img/calendar.svg);
-  background-repeat: no-repeat;
-  width: 21px;
-  height: 22px;
-  right: 64px;
-} */
-
-.cal-btn {
-  content: "";
-  position: absolute;
-  background-image: url(../img/calendar.svg);
-  background-repeat: no-repeat;
-  width: 21px;
-  height: 22px;
-  right: 64px;
-}
-
-.cal-form::after:focus {
+/* .cal-form::after:focus {
   background-image: url(../img/calendar_active.svg)
-}
+} */
 
 .form-option input:hover {
   background-color: #ebebeb;
@@ -513,8 +493,44 @@ input[type=text]::-ms-clear {
   /* background-image: url(../img/calendar_active.svg); */
 }
 
+.modal-departure,
+.modal-arrival {
+  position: relative;
+}
+
+.modal-arrival .cal-btn {
+  top: 8px;
+}
+
 .modal-arrival .form-option {
   margin-top: 0;
+}
+
+.cal-btn {
+  padding: 0;
+  border: 0;
+  position: absolute;
+  top: 37px;
+  right: 9px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.cal-btn:hover,
+.cal-btn:focus {
+  cursor: pointer;
+}
+
+.cal-btn:focus {
+  outline: none;
+}
+
+.cal-btn:hover path,
+.cal-btn:focus path {
+  fill: #000;
+}
+
+.cal-btn:active path {
+  fill: #81b3d2;
 }
 
 .age-people {
